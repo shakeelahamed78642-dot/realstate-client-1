@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120" width="500" height="120">
+  <defs>
+    <linearGradient id="goldGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCE8B2" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#E5C158" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Logo Icon -->
+  <g transform="translate(10, 10)">
+    <path d="M 50,5 L 85,25 L 85,75 L 50,95 L 15,75 L 15,25 Z" fill="none" stroke="url(#goldGradLight)" stroke-width="3" />
+    <path d="M 50,12 L 78,28 L 78,72 L 50,88 L 22,72 L 22,28 Z" fill="#0B1F3A" opacity="0.95" />
+    
+    <rect x="44" y="28" width="12" height="42" fill="url(#goldGradLight)" rx="1"/>
+    <path d="M 28,42 L 38,35 L 38,70 L 28,70 Z" fill="url(#goldGradLight)" opacity="0.85"/>
+    <path d="M 62,35 L 72,42 L 72,70 L 62,70 Z" fill="url(#goldGradLight)" opacity="0.85"/>
+    <polygon points="50,18 64,29 36,29" fill="url(#goldGradLight)"/>
+    <circle cx="50" cy="14" r="2.5" fill="#FFF"/>
+  </g>
+  
+  <!-- Text Brand -->
+  <g transform="translate(110, 35)">
+    <text x="0" y="32" font-family="'Playfair Display', Georgia, serif" font-size="34" font-weight="700" letter-spacing="3" fill="#FFFFFF">MARSLAND</text>
+    <text x="0" y="54" font-family="'Inter', sans-serif" font-size="14" font-weight="600" letter-spacing="8" fill="#D4AF37">PROPERTIES</text>
+    <text x="0" y="68" font-family="'Inter', sans-serif" font-size="9" font-weight="500" letter-spacing="2" fill="#E2E8F0">TRICHY • DTCP &amp; RERA APPROVED</text>
+  </g>
+</svg>

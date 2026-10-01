@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120" width="500" height="120">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3E0AA" />
+      <stop offset="30%" stop-color="#D4AF37" />
+      <stop offset="70%" stop-color="#AA7C11" />
+      <stop offset="100%" stop-color="#F3E0AA" />
+    </linearGradient>
+    <linearGradient id="navyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0B1F3A" />
+      <stop offset="100%" stop-color="#050E1A" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Logo Icon: Geometric Shield & Rising M -->
+  <g transform="translate(10, 10)">
+    <!-- Outer Octagon/Shield Frame -->
+    <path d="M 50,5 L 85,25 L 85,75 L 50,95 L 15,75 L 15,25 Z" fill="none" stroke="url(#goldGrad)" stroke-width="3" />
+    <path d="M 50,12 L 78,28 L 78,72 L 50,88 L 22,72 L 22,28 Z" fill="url(#navyGrad)" opacity="0.9" />
+    
+    <!-- Stylized Skyline / M Motif -->
+    <!-- Central Tower -->
+    <rect x="44" y="28" width="12" height="42" fill="url(#goldGrad)" rx="1"/>
+    <!-- Left Pillar -->
+    <path d="M 28,42 L 38,35 L 38,70 L 28,70 Z" fill="url(#goldGrad)" opacity="0.85"/>
+    <!-- Right Pillar -->
+    <path d="M 62,35 L 72,42 L 72,70 L 62,70 Z" fill="url(#goldGrad)" opacity="0.85"/>
+    <!-- Roof Triangular Gable -->
+    <polygon points="50,18 64,29 36,29" fill="url(#goldGrad)"/>
+    
+    <!-- Star/Sun Motif above roof -->
+    <circle cx="50" cy="14" r="2.5" fill="#FFF"/>
+  </g>
+  
+  <!-- Text Brand -->
+  <g transform="translate(110, 35)">
+    <text x="0" y="32" font-family="'Playfair Display', Georgia, serif" font-size="34" font-weight="700" letter-spacing="3" fill="#0B1F3A">MARSLAND</text>
+    <text x="0" y="54" font-family="'Inter', sans-serif" font-size="14" font-weight="600" letter-spacing="8" fill="#C9A227">PROPERTIES</text>
+    <text x="0" y="68" font-family="'Inter', sans-serif" font-size="9" font-weight="500" letter-spacing="2" fill="#666666">TRICHY • DTCP &amp; RERA APPROVED</text>
+  </g>
+</svg>

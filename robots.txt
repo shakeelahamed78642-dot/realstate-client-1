@@ -1,0 +1,14 @@
+# Marsland Properties - Robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://marslandproperties.github.io/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 10
+
+# Disallow admin/private paths (none in this static site)
+# Disallow: /assets/
+# Disallow: /css/
+# Disallow: /js/

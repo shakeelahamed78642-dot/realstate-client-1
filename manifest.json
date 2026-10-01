@@ -1,0 +1,50 @@
+{
+  "name": "Marsland Properties - Premium Real Estate in Trichy",
+  "short_name": "Marsland Properties",
+  "description": "Discover premium DTCP & RERA approved residential plots, farmlands, and apartments in Trichy by Marsland Properties.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8F6F1",
+  "theme_color": "#0B1F3A",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-IN",
+  "icons": [
+    {
+      "src": "assets/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/logo-light.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "real estate", "finance"],
+  "shortcuts": [
+    {
+      "name": "View Projects",
+      "short_name": "Projects",
+      "description": "Browse our premium residential projects",
+      "url": "/#projects",
+      "icons": [{ "src": "assets/logo.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "Contact Us",
+      "short_name": "Contact",
+      "description": "Get in touch for site visits",
+      "url": "/#contact",
+      "icons": [{ "src": "assets/logo.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "WhatsApp",
+      "short_name": "WhatsApp",
+      "description": "Chat with us on WhatsApp",
+      "url": "https://wa.me/919894980940",
+      "icons": [{ "src": "assets/logo.svg", "sizes": "96x96" }]
+    }
+  ]
+}
